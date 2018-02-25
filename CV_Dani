@@ -1,0 +1,96 @@
+%%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Change the font size of your document - 10pt, 12.1pt, etc.
+\documentclass[letterpaper,11pt,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+\graphicspath{ {images/}} %upload your signature to this file
+%Change the margins to fit your CV/resume content
+\usepackage[left=1in, right=1in, bottom=1.25in, top=1.25in]{geometry}
+
+%Skype information - include your Skype name for a link to add you on Skype
+\newcommand*{\Skype}{\href{skype:kovacsdeakdaniel}{kovacsdeakdaniel}} 
+\newcommand{\Absender}[1][\normalsize]{\Skype} 
+
+%Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
+
+\noindent  \LARGE{\textbf{Dániel KOVÁCS-DEÁK}}  \\
+\vspace{-2ex}
+\hline 
+\normalsize
+
+%%%%%%%%%%%%%%%%% CONTACT INFORMATION %%%%%%%%%%%%%%%%%
+% Your email address, website, and Skype name are links to send email, open your website and add you on Skype. 
+
+\begin{center}
+\begin{tabular}{l l}
+ Eötvös Loránd University    & \hspace{1in} \href{mailto:danielkovacsdeak@gmail.com}{danielkovacsdeak@gmail.com} \\
+ Faculty of Science    & \hspace{1in}  \href{kovacsdeak.web.elte.hu}{kovacsdeak.web.elte.hu}   \\
+ Felszabadulás utca 42.            & \hspace{1in} Skype: \Absender  \\
+ Újszentiván, Hungary 6754 & \hspace{1in} Phone: +36 (30) 636-9335 \\
+\end{tabular}
+\end{center}
+
+\vspace{1em}
+
+%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Education}    & \textbf{Eötvös Loránd University} \\
+     & BSc, Physics, expected graduation date 2019. \\
+     & Fields: Higher Mathematics, Classical physics, Electrodynamics,\\
+     & Qunatum mehanics, Computer Science, Econometrics \\
+     %& M.A., Political Science, 2013. \\
+     %& \\
+     & \\
+     & \textbf{Mathias Corvinus Collegium} \\
+     & Facultaty of Economics and Business, 2017-2019 \\
+     & Junior Training, 2016-2017. \\
+     & \\
+
+  \Large{Courses}    &\textbf{Morgan Stanley} \\
+     & Finance for Scientists, 2017 \\
+     & \\
+  
+     & \textbf{Mathias Corvinus Collegium} \\
+     & International Relations, 2016 \\
+     & Economics, Modern History, 2015\\
+     & Social Sciences, 2014\\
+     & \\
+
+ \Large{Experience}    & \textbf{Camgrain Store Ltd. 2015.} \\
+     & Laboratory Technician ( Different measures on grain samples \\
+     & \textbf{Adiuto Fortis Kft, 2017-2018} \\
+     & Accauntant traniee \\
+     & \\
+ \Large{Awards and }    & \textbf{Bursarship, Eötvös Loránd University} \\
+  \Large{Fellowships}   & Physics, 2017 \\
+     & \\
+ \Large{Competition Results}  & \textbf{Competitions:}\\
+ \Large{and Exhibitons}
+     & K\&H Diákkupa 9$^{th}$ place, 2016 \\
+     & OKTV, Physics 22$^{th}$ place, 2015 \\
+     & \textbf{Sport (Climbing):} National Champion, European Cup 1$^{st}$ place, 2010 \\
+     & \\
+     & \textbf{Exhibitions:}\\
+     & Debut Exhibition, Szeged, 2016 \\
+     & \\
+     
+  \Large{Languages}   & Hungarian (native), English (B2), Italian (A2) \\
+     & \\
+\Large{Skills}    & MS Office, \LaTeX, Python, C, C++, Corel Painter  \\
+\Large{Hobbies}  & Traditional and digital painting, Wall Climbing \\
+\end{tabular}
+
+
+\end{document}
